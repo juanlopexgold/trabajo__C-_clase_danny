@@ -1,0 +1,14 @@
+C:\Users\User\Documents\Documentos_practica_C#\menu_programas\bin\Debug\net7.0\menu_programas.exe
+C:\Users\User\Documents\Documentos_practica_C#\menu_programas\bin\Debug\net7.0\menu_programas.deps.json
+C:\Users\User\Documents\Documentos_practica_C#\menu_programas\bin\Debug\net7.0\menu_programas.runtimeconfig.json
+C:\Users\User\Documents\Documentos_practica_C#\menu_programas\bin\Debug\net7.0\menu_programas.dll
+C:\Users\User\Documents\Documentos_practica_C#\menu_programas\bin\Debug\net7.0\menu_programas.pdb
+C:\Users\User\Documents\Documentos_practica_C#\menu_programas\obj\Debug\net7.0\menu_programas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\Documentos_practica_C#\menu_programas\obj\Debug\net7.0\menu_programas.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Documentos_practica_C#\menu_programas\obj\Debug\net7.0\menu_programas.AssemblyInfo.cs
+C:\Users\User\Documents\Documentos_practica_C#\menu_programas\obj\Debug\net7.0\menu_programas.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Documentos_practica_C#\menu_programas\obj\Debug\net7.0\menu_programas.dll
+C:\Users\User\Documents\Documentos_practica_C#\menu_programas\obj\Debug\net7.0\refint\menu_programas.dll
+C:\Users\User\Documents\Documentos_practica_C#\menu_programas\obj\Debug\net7.0\menu_programas.pdb
+C:\Users\User\Documents\Documentos_practica_C#\menu_programas\obj\Debug\net7.0\menu_programas.genruntimeconfig.cache
+C:\Users\User\Documents\Documentos_practica_C#\menu_programas\obj\Debug\net7.0\ref\menu_programas.dll
