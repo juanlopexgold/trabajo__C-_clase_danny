@@ -59,3 +59,45 @@ class Herramientas
         return resul;
     }
 }
+class Ejercicios
+{
+    public static void pares()
+    {
+        do
+        {
+            Console.Clear(); // Limpiar la pantalla
+            Console.Write("Por Favor Ingrese un número: ");
+            string? input = Console.ReadLine();
+            if (!string.IsNullOrEmpty(input) && int.TryParse(input, out int numero))
+            {
+                Console.WriteLine("los numero pares son: ");
+                for (int i = 0; i <= numero; i++)
+                {
+                    if (i % 2 == 0)
+                        Console.Write(i + " ");
+                }
+                Console.WriteLine();
+                Console.WriteLine("los numeros impares son: ");
+                for (int i = 0; i <= numero; i++)
+                {
+                    if (i % 2 != 0)
+                        Console.Write(i + " ");
+                }
+                Console.WriteLine();
+
+                int suma_par = Enumerable.Range(0, numero + 1).Where(x => x % 2 == 0).Sum();
+                int suma_Impar = Enumerable.Range(0, numero + 1).Where(x => x % 2 != 0).Sum();
+                Console.WriteLine($"Suma de los numeros pares es: {suma_par}");
+                Console.WriteLine($"Suma de los numeros impares es: {suma_Impar}");
+                Console.WriteLine(suma_par > suma_Impar ? "el resultado de la suma de pares es mayor." : "el resultado de la suma de impares es mayor.");
+            }
+            else
+            {
+                Console.WriteLine("caracter incorrecto, favor ingresar otro.");
+            }
+
+            Console.Write("¿Desea ingreasar otro numero para realizar otra operacion? (si/no): ");
+        } while (Console.ReadLine()?.Trim().ToLower() == "si");
+        Console.Clear(); // Limpiar la pantalla antes de salir de la función
+    }
+}
